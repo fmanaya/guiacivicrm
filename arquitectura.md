@@ -1,5 +1,7 @@
 Esquema básico de los componentes que hacen falta en un servidor para que CiviCRM funcione:
 
+![Arquitectura civiCRM, instalacion XAMP](img/arquitectura-xamp.png "Arquitectura")
+
 * Sistema operativo: Ya sea Linux, MacOs, Windows, u otro sistema. Sin entrar en más detalles, debemos elegir un sistema operativo sobre el que funcionen las tres piezas fundamentales para CiviCRM (las explicamos a continuación): Apache, MySQL y PHP. Para una instalación de pruebas, podemos instalar CiviCRM en nuestro escritorio habitual. Sin embargo, para una instalación de producción, lo más recomendable y normal, es hacerlo sobre Linux (y, si es Debian, mejor).
 * Apache: Es la pieza que encarga de que nuestro servidor se entienda con los navegadores web. En un esquema muy simple, a Apache, una vez instalado en un sistema operativo cualquiera, le podemos "dar" una carpeta y se encargará de que sea accesible desde un navegador.
 * PHP: Apache, por sí sólo, es capaz de hablarse con un navegador y "enseñarle" documentos que tengamos en nuestro sistema. PHP es algo así como lo que da inteligencia a Apache y le permite hacer cálculos. Así, los navegadores pueden interactuar con algo que no sólo es capaz de devolverles documentos sino, además, hacer cosas: enviar emails, crear documentos, etc.
